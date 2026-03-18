@@ -15,7 +15,9 @@
         <!-- Header Section -->
         <nav class="navbar container">
 
-            <h2 class="navbar-brand"><span></span> Double D</h2>
+            <h2 class="navbar-brand">
+                <a href="/"><span></span> Double D</a>
+            </h2>
 
             <ul class="navbar-links">
                 <li><a href="">Home</a></li>
@@ -25,7 +27,7 @@
 
             </ul>
 
-            <button type="" class="btn btn-primary navbar-cta"><i class="fa-brands fa-rocketchat"></i></button>
+            <a href="contact.html" class="btn btn-primary navbar-cta"><i class="fa-brands fa-rocketchat"></i></a>
         </nav>
 
 
@@ -129,17 +131,148 @@
             </div>
         </section>
 
-        <section>
+        <section class="container">
+            <div class="project-section">
+                <h2>Projects</h2>
+            </div>
             <div class="projects">
                 <div class="project-card">
-                    <img src="" alt="">
+                    <img src="https://cdn.dribbble.com/userupload/32643395/file/original-85bba5da4f4df2c5665c968bf6880721.png?resize=1504x1128&vertical=center"
+                        width="300" alt="">
                     <div class="project-card-content">
-                        <h4>Project Name</h4>
+                        <div class="project-card-tech">
+                            <p class="tech">Vanilla HTML</p>
+                            <p class="tech">Vanilla CSS</p>
+                        </div>
+                        <h3 class="project-card-title">Project Name</h3>
+                        <p class="project-card-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora quidem dolorum
+                            voluptatum molestiae, consequuntur quasi! Molestias assumenda deserunt nam, minima veniam in
+                            repellendus dicta voluptatibus at minus, quia eligendi.
+                        </p>
+
+                        <div class="project-card-source">
+                            <button class="btn btn-ghost">View Demo <i
+                                    class="fa-solid fa-arrow-right-long"></i></button>
+                            <button class="btn btn-ghost-secondary">Git Repo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://cdn.dribbble.com/userupload/47031143/file/7da3947d5325ac47790d9a2f3e221bf8.png?resize=1504x1128&vertical=center"
+                        width="300" alt="">
+                    <div class="project-card-content">
+                        <div class="project-card-tech">
+                            <p class="tech">Vanilla HTML</p>
+                            <p class="tech">Vanilla HTML</p>
+                        </div>
+                        <h3 class="project-card-title">Project Name</h3>
+                        <p class="project-card-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora quidem dolorum
+                            voluptatum molestiae, consequuntur quasi! Molestias assumenda deserunt nam, minima veniam in
+                            repellendus dicta voluptatibus at minus, quia eligendi.
+                        </p>
+
+                        <div class="project-card-source">
+                            <button class="btn btn-ghost">View Demo <i
+                                    class="fa-solid fa-arrow-right-long"></i></button>
+                            <button class="btn btn-ghost-secondary">Git Repo</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://cdn.dribbble.com/userupload/40759674/file/original-8f611fe8b24aa26fb789d55df4182bb4.png?resize=1504x1128&vertical=center"
+                        width="300" alt="">
+                    <div class="project-card-content">
+                        <div class="project-card-tech">
+                            <p class="tech">Vanilla HTML</p>
+                            <p class="tech">Vanilla HTML</p>
+                        </div>
+                        <h3 class="project-card-title">Project Name</h3>
+                        <p class="project-card-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus tempora quidem dolorum
+                            voluptatum molestiae, consequuntur quasi! Molestias assumenda deserunt nam, minima veniam in
+                            repellendus dicta voluptatibus at minus, quia eligendi.
+                        </p>
+
+                        <div class="project-card-source">
+                            <button class="btn btn-ghost">View Demo <i
+                                    class="fa-solid fa-arrow-right-long"></i></button>
+                            <button class="btn btn-ghost-secondary">Git Repo</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="contact-section">
+                
+
+                <div class="contact">
+                    <div class="contact-left">
+                        <h3>Let's work together</h3>
+                        <p>Have a project in mind or just want to say hi? Fill out the form or reach out through social
+                            media</p>
+
+                        <div class="contact-socials">
+                            <div class="contact-socials-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-socials-info">
+                                <h4>Email</h4>
+                                <p>contact@dtdaniel.me</p>
+                            </div>
+                        </div>
+                        <div class="contact-socials">
+                            <div class="contact-socials-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+
+                            <div class="contact-socials-info">
+                                <h4>Location</h4>
+                                <p>Lagos, Nigeria</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form action="">
+                            <div class="input-div">
+                                <div class="input-data">
+                                    <label for="fname">First Name</label>
+                                    <input type="text" id="fname" name="fname">
+                                </div>
+
+                                <div class="input-data">
+                                    <label for="lname">Last Name</label>
+                                    <input type="text" id="lname" name="lname">
+                                </div>
+                            </div>
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+
+                            <label for="msg">Message</label>
+                            <textarea name="msg" id="msg" rows="5" placeholder="Anything on your mind?"></textarea>
+
+                            <button>Send Message</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> | Double D. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 
 </html>
